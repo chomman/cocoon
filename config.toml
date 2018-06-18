@@ -1,4 +1,6 @@
-baseURL = "http://www.arolla-cocoon.com/"
+# baseURL = "http://www.arolla-cocoon.com/"
+baseURL = "https://arolla-cocoon.netlify.com/"
+
 languageCode = "en-us"
 title = "Cocoon & Cosy luxury tents in Arolla"
 
