@@ -10,16 +10,9 @@ theme = "airspace"
 
   [[menu.header]]
     weight = 2
-    name = "Work"
+    name = "camping-arolla.com"
     url = "/work"
-  [[menu.header]]
-    weight = 3
-    name = "Blog"
-    url = "/blog"
-  [[menu.header]]
-    weight = 4
-    name = "Service"
-    url = "/service"
+
   [[menu.header]]
     weight = 5
     name = "Contact"
@@ -27,24 +20,12 @@ theme = "airspace"
 
   [[menu.footer]]
     weight = 1
-    name = "About us"
+    name = "camping-arolla.com"
     url = "#"
   [[menu.footer]]
     weight = 2
     name = "Contact us"
-    url = "#"
-  [[menu.footer]]
-    weight = 3
-    name = "How it works"
-    url = "#"
-  [[menu.footer]]
-    weight = 4
-    name = "Blog"
-    url = "#"
-  [[menu.footer]]
-    weight = 5
-    name = "Terms"
-    url = "#"
+    url = "/contact"
 
 # The site's parameters
 [params]
@@ -54,37 +35,28 @@ theme = "airspace"
   # For information see https://github.com/gohugoio/hugoThemes/issues/260
 
   date_format = "6 January 2006"
-
   home = "Home"
 
   [params.slider]
     enable = true
-    title = "Tentes COCOONING & COSY ... lit 2 personnes & POÊLE À BOIS"
+    title = "Tentes de luxe COCOONING & COSY ...<br>Lit 2 personnes & Poële à bois"
     subtitle = "Vous avez toujours rêvé de venir camper, mais vous n’êtes pas un aventurier aguerri? <br> Venez passer une nuit inoubliable en plein coeur des montagnes, perchés à 1950m d'altitude, le tout dans une ambiance confortable & chaleureuse!"
 
   [params.wrapper]
     enable = true
-    title = "About Us"
-    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
-
-  [params.blog]
-    enable = true
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
+    title = "A propos de nous / About Us ...Camping Arolla"
+    italic = "Au coeur des Alpes suisses à 1 950 m d'altitude, vous apprécierez de pouvoir camper dans un environnement naturel au pied des sommets et glaciers. Il y a de très nombreuses randonnées et courses alpines au départ d'Arolla."
+    paragraph = "In the heart of the Swiss Alps, at an altitude of 1 950 meters, Camping Arolla is situated in a beautiful position with a panorama of stunning mountains and glaciers. It offers dozens of routes and walks of every variety starting just a stone’s throw away."
 
   [params.feature]
     enable = true
-    title = "We believe in great ideas"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-    [params.feature.button]
-      caption = "View Works"
-      url = "#"
+    title = "Tentes de luxe / Luxury tents COCOONING & COSY"
+    content = "TODO Bla bla sur les tentes"
 
   [params.call]
     enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "CALL XXXX"
+    paragraph = "XXXXX"
 
   [params.contact]
     enable = true

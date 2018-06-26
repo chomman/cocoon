@@ -1,45 +1,45 @@
 enable: true
-title: Our Services
+title: Nos prestations / Our Services
 subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  Retrouvez le confort d'une chambre d'hôtel, en pleine nature et dans un lieu exceptionnel.
 content:
 
   - icon: ion-coffee
-    name: Branding
+    name: Epicerie/Boissons chaudes
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Boissons chaudes et épicerie de produits locuax et Bios
 
   - icon: ion-compass
-    name: Web Design
+    name: Des promenades magiques
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Bla bla
 
-  - icon: ion-image
-    name: App Design
+  - icon: ion-bonfire
+    name: Chauffage au bois / Wood Oven
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Bla bla
 
   - icon: ion-bug
     name: Start Up
     text: >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
 
-  - icon: ion-headphone
-    name: Logo Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
   - icon: ion-leaf
-    name: Development
+    name: Respect de la nature
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Nous utilisons exclusivement des produits nettoyants bios
 
-  - icon: ion-planet
-    name: Brand Identity
+  - icon: ion-card
+    name: Paiments faciles / Easy payments
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Credit cards (Visa, Mastercard, XXX), liquide/Cask, Bansk transferts
 
   - icon: ion-earth
-    name: Brand Identity
+    name: Des produits naturels
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      De l'eau exceptionnelement pure en direct du glacier XX, de nombreux produits locaux naturels
+
+  - icon: ion-cash
+    name: Un prix très doux ... 55 CHF
+    text: >
+      Prix par nuit, tout inclus : Tent, King bed 2 personnes, poêle à bois, serviettes, vue, sourire, emplacement voiture
