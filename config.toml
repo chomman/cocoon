@@ -10,8 +10,8 @@ theme = "airspace"
 
   [[menu.header]]
     weight = 2
-    name = "camping-arolla.com"
-    url = "/work"
+    name = "www.camping-arolla.com"
+    url = "http://www.camping-arolla.com"
 
   [[menu.header]]
     weight = 5
@@ -20,8 +20,8 @@ theme = "airspace"
 
   [[menu.footer]]
     weight = 1
-    name = "camping-arolla.com"
-    url = "#"
+    name = "www.camping-arolla.com"
+    url = "http://www.camping-arolla.com"
   [[menu.footer]]
     weight = 2
     name = "Contact us"
@@ -45,18 +45,18 @@ theme = "airspace"
   [params.wrapper]
     enable = true
     title = "A propos de nous / About Us ...Camping Arolla"
-    italic = "Au coeur des Alpes suisses à 1 950 m d'altitude, vous apprécierez de pouvoir camper dans un environnement naturel au pied des sommets et glaciers. Il y a de très nombreuses randonnées et courses alpines au départ d'Arolla."
+    italic = "Amoureux de la nature, venez découvrir le camping le plus haut d'Europe, perché à 1.950m d'altitude dans un environnement totalement naturel au pied des sommets et glaciers."
     paragraph = "In the heart of the Swiss Alps, at an altitude of 1 950 meters, Camping Arolla is situated in a beautiful position with a panorama of stunning mountains and glaciers. It offers dozens of routes and walks of every variety starting just a stone’s throw away."
 
   [params.feature]
     enable = true
     title = "Tentes de luxe / Luxury tents COCOONING & COSY"
-    content = "TODO Bla bla sur les tentes"
+    content = "Nos tentes Cocooning sont élaborées pour deux personnes, comprenant un vrai lit king size, un poêle à bois, et tout le nécessaire pour cuisiner"
 
   [params.call]
     enable = true
-    title = "CALL XXXX"
-    paragraph = "XXXXX"
+    title = "Apellez nous / Call us : +41 (0)27 283 22 95 "
+    paragraph = "De Juin à Septembre / From June to September"
 
   [params.contact]
     enable = true
@@ -69,9 +69,9 @@ theme = "airspace"
       message = "Your message"
       button = "Send message"
     [params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
+      title = "Camping Arolla"
+      address = "Route de Tsalion - 1986 Arolla - Switzerland"
       email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
+      phone = "Phone: +41 (0)27 283 22 95"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"

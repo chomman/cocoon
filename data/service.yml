@@ -12,34 +12,34 @@ content:
   - icon: ion-compass
     name: Des promenades magiques
     text: >
-      Bla bla
+      De nombreuses randonnées se font au départ d'Arolla. Tous les goûts et tous les niveaux !
 
   - icon: ion-bonfire
     name: Chauffage au bois / Wood Oven
     text: >
-      Bla bla
-
-  - icon: ion-bug
-    name: Start Up
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Tout le bois nécessaire sera fourni pour profiter au maximum des joies du poële.
 
   - icon: ion-leaf
     name: Respect de la nature
     text: >
-      Nous utilisons exclusivement des produits nettoyants bios
+      Nous utilisons exclusivement des produits nettoyants bios.
+
+  - icon: ion-thermometer
+    name: Douche & sanitaires
+    text: >
+      Douche chaude 1 CHF.
 
   - icon: ion-card
     name: Paiments faciles / Easy payments
     text: >
-      Credit cards (Visa, Mastercard, XXX), liquide/Cask, Bansk transferts
+      Credit cards (Visa, Mastercard, Vpay, American express, Maestro), liquide/cash, Bank transferts.
 
   - icon: ion-earth
     name: Des produits naturels
     text: >
-      De l'eau exceptionnelement pure en direct du glacier XX, de nombreux produits locaux naturels
+      De l'eau exceptionnelement pure en direct du glacier, de nombreux produits locaux naturels.
 
   - icon: ion-cash
     name: Un prix très doux ... 55 CHF
     text: >
-      Prix par nuit, tout inclus : Tent, King bed 2 personnes, poêle à bois, serviettes, vue, sourire, emplacement voiture
+      Prix par nuit, tout inclus : Tent, King bed 2 personnes, poêle à bois, serviettes, vue, sourire, emplacement voiture, TVA, taxe de séjour.

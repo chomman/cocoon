@@ -19,22 +19,17 @@ numbers:
 
 people:
   - text: >
-      Review 1
+      Super confortable, j'ai mieux dormi que dan mon lit.
     image: img/item-img1.jpg
-    name: Rose Ray
+    name: D. K.
     role: CEO-Themefisher
   - text: >
-      Review 2
+      C'est encore mieux que sur les photos, c'est magnifique.
     image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+    name: Megan W.
+    role: Happy camper
   - text: >
-      Review 3
+      On adore, ça va être difficile de rendormir dans notre tente.
     image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
-  - text: >
-      Review 4
-    image: img/item-img1.jpg
-    name: Rose Ray
+    name: Muir
     role: CEO-Themefisher
