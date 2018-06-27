@@ -3,8 +3,19 @@ baseURL = "https://arolla-cocoon.netlify.com/"
 
 languageCode = "en-us"
 title = "Cocoon & Cosy luxury tents in Arolla"
-
 theme = "airspace"
+
+# Pas de Taxonomies
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+
+enableGitInfo = true
+pygmentsCodeFences = true
+
 
 [menu]
 
@@ -75,3 +86,26 @@ theme = "airspace"
       phone = "Phone: +41 (0)27 283 22 95"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"
+
+# RGPD compliant
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.speakerDeck]
+    disable = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
