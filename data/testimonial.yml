@@ -1,7 +1,7 @@
 enable: true
-title: Fun Facts About Us
+title: Le saviez vous ? / Fun Facts About Us
 paragraph: >
-  Bla bla bla
+  Quelques chiffres secrets juste pour vous / Those are our secrets numbers just for you.
 
 numbers:
   - icon: ion-podium
@@ -20,16 +20,21 @@ numbers:
 people:
   - text: >
       Super confortable, j'ai mieux dormi que dan mon lit.
-    image: img/item-img1.jpg
+    image: img/happycamper.jpg
     name: D. K.
-    role: CEO-Themefisher
+    role: An other happy coccon & cosy victim
   - text: >
       C'est encore mieux que sur les photos, c'est magnifique.
-    image: img/item-img1.jpg
+    image: img/happycamper.jpg
     name: Megan W.
     role: Happy camper
   - text: >
       On adore, ça va être difficile de redormir dans notre tente.
-    image: img/item-img1.jpg
+    image: img/happycamper.jpg
     name: Muir
-    role: CEO-Themefisher
+    role: Nice & happy camper
+  - text: >
+      Honestly, we couldn't recommend this place highly enough, it was the highlight of our trip!
+    image: img/happycamper.jpg
+    name: Michael
+    role: Happy customer
