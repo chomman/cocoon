@@ -35,7 +35,7 @@ pygmentsCodeFences = true
     url = "http://www.camping-arolla.com"
   [[menu.footer]]
     weight = 2
-    name = "Contact us"
+    name = "Contact"
     url = "/contact"
 
 # The site's parameters
@@ -71,8 +71,8 @@ pygmentsCodeFences = true
 
   [params.contact]
     enable = true
-    title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    title = "Contactez nous / Drop us a note"
+    subtitle = "Utilisez le bouton de formulaire de contact à droite de la page / Use the form button on the right."
     [params.contact.form]
       name = "Your name"
       email = "Your email"
@@ -82,7 +82,7 @@ pygmentsCodeFences = true
     [params.contact.box]
       title = "Camping Arolla"
       address = "Route de Tsalion - 1986 Arolla - Switzerland"
-      email = "Email: contact@mail.com"
+      email = "-"
       phone = "Phone: +41 (0)27 283 22 95"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"
