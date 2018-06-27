@@ -19,25 +19,25 @@ content:
     text: >
       Tout le bois nécessaire sera fourni pour profiter au maximum des joies du poële.
 
-  - icon: ion-leaf
-    name: Respect de la nature
-    text: >
-      Nous utilisons exclusivement des produits nettoyants bios.
-
   - icon: ion-thermometer
     name: Douche & sanitaires
     text: >
       Douche chaude 1 CHF.
 
-  - icon: ion-card
-    name: Paiments faciles / Easy payments
-    text: >
-      Credit cards (Visa, Mastercard, Vpay, American express, Maestro), liquide/cash, Bank transferts.
-
   - icon: ion-earth
     name: Des produits naturels
     text: >
       De l'eau exceptionnelement pure en direct du glacier, de nombreux produits locaux naturels.
+
+  - icon: ion-leaf
+    name: Respect de la nature
+    text: >
+      Nous utilisons exclusivement des produits nettoyants bios.
+
+  - icon: ion-card
+    name: Paiments faciles / Easy payments
+    text: >
+      Credit cards (Visa, Mastercard, Vpay, American express, Maestro), liquide/cash, Bank transferts.
 
   - icon: ion-cash
     name: Un prix très doux ... 55 CHF
