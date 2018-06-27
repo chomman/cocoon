@@ -19,7 +19,7 @@ numbers:
 
 people:
   - text: >
-      Super confortable, j'ai mieux dormi que dan mon lit.
+      Super confortable, j'ai mieux dormi que dans mon lit.
     image: img/happycamper.jpg
     name: D. K.
     role: An other happy coccon & cosy victim
@@ -28,11 +28,6 @@ people:
     image: img/happycamper.jpg
     name: Megan W.
     role: Happy camper
-  - text: >
-      On adore, ça va être difficile de redormir dans notre tente.
-    image: img/happycamper.jpg
-    name: Muir
-    role: Nice & happy camper
   - text: >
       Honestly, we couldn't recommend this place highly enough, it was the highlight of our trip!
     image: img/happycamper.jpg
