@@ -269,7 +269,7 @@ and (max-device-width : 1024px)
 and (orientation : landscape)
 and (-webkit-min-device-pixel-ratio: 1)  {
   #feature {
-    background: url("../img/featue-bg-mini.jpg");
+    background: url("../img/cocoon_montagnes-mini.jpg");
     /* background-attachment: fixed; DOES NOT WORK */
   }
 }
