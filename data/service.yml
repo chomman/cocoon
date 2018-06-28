@@ -20,18 +20,19 @@ content:
   - icon: ion-bonfire
     name: Chauffage au bois / Wood Oven
     text: >
-      Tout le bois nécessaire sera fourni pour profiter au maximum des joies du poêle. /
-      All the necessary wood will be provided to make the most of the pleasures of the stove
+      Tout le bois nécessaire pour profiter des joies du poêle. /
+      All the necessary wood to make the most of the pleasures of the stove
 
   - icon: ion-thermometer
     name: Douche et sanitaires / Shower and toilets
     text: >
-      Douche chaude 1 CHF. / Hot shower 1 CHF.
+      Douche chaude 1 CHF. Eviers vaisselle avec eau chaude, wc et lavabos /
+      Hot shower 1 CHF. Dish washing sinks, washing sinks toilets
 
   - icon: ion-earth
     name: Des produits naturels / Natural products
     text: >
-      De l'eau exceptionnelement pure en direct du glacier, de nombreux produits locaux naturels. /
+      De l'eau exceptionnelement pure en direct du glacier, produits locaux naturels. /
       Exceptionally pure water directly from the glacier, many natural local products.
 
   - icon: ion-leaf
