@@ -69,7 +69,7 @@ pygmentsCodeFences = true
   [params.feature]
     enable = true
     title = "Tentes de luxe / Luxury tents COCOONING & COSY"
-    content = "Nos tentes Cocooning sont élaborées pour deux personnes, comprenant un vrai lit king size, un poêle à bois, et tout le nécessaire pour cuisiner<p>Our Cocooning tents are designed for two people, including a real king size bed, a wood stove, and everything you need to cook."
+    content = ""
 
   [params.call]
     enable = true
