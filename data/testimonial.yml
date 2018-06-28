@@ -6,23 +6,23 @@ paragraph: >
 numbers:
   - icon: ion-podium
     counter: 1950
-    text: Plus haut camping d'europe ... 1.950m
+    text: Plus haut camping d'europe / Highest campsite in Europe ... 1.950m
   - icon: ion-scissors
     counter: 1345278
-    text: Brins d'herbe tondus en Juin
+    text: Brins d'herbe tondus en Juin / Shorn grass in June
   - icon: ion-ios-paw
-    counter: 84
-    text: Marmottes vues cette année
+    counter: 54
+    text: Marmottes vues cette année / Marmottes views this year
   - icon: ion-happy-outline
     counter: 123
-    text: Moyenne/j de rires et sourires
+    text: Nombre de rires et sourires chaque jour / Number of laughs and smiles every day.
 
 people:
   - text: >
       Super confortable, j'ai mieux dormi que dans mon lit.
     image: img/happycamper.jpg
     name: D. K.
-    role: An other happy coccon & cosy victim
+    role: An other happy cocoon & cosy victim
   - text: >
       C'est encore mieux que sur les photos, c'est magnifique.
     image: img/happycamper.jpg

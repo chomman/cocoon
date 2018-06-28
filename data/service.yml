@@ -1,38 +1,44 @@
 enable: true
 title: Nos prestations / Our Services
 subtitle: >
-  Retrouvez le confort d'une chambre d'hôtel, en pleine nature et dans un lieu exceptionnel.
-content:
+  Retrouvez le confort d'une chambre d'hôtel, en pleine nature et dans un lieu exceptionnel. /
+  Find the comfort of a hotel room, surrounded by nature and in an exceptional place.``
 
+content:
   - icon: ion-coffee
-    name: Epicerie/Boissons chaudes
+    name: Epicerie / Grocery
     text: >
-      Boissons chaudes et épicerie de produits locuax et Bios
+      Boissons chaudes et épicerie de produits locaux et Bios. /
+      Hot drinks and groceries of organic and local products.
 
   - icon: ion-compass
-    name: Des promenades magiques
+    name: Des promenades magiques / Magic walks
     text: >
-      De nombreuses randonnées se font au départ d'Arolla. Tous les goûts et tous les niveaux !
+      De nombreuses randonnées se font au départ d'Arolla. Tous les goûts et tous les niveaux! /
+      Many hikes are from Arolla. All tastes and all levels!
 
   - icon: ion-bonfire
     name: Chauffage au bois / Wood Oven
     text: >
-      Tout le bois nécessaire sera fourni pour profiter au maximum des joies du poële.
+      Tout le bois nécessaire sera fourni pour profiter au maximum des joies du poële. /
+      All the necessary wood will be provided to make the most of the pleasures of the stove
 
   - icon: ion-thermometer
-    name: Douche et sanitaires
+    name: Douche et sanitaires / Shower and toilets
     text: >
-      Douche chaude 1 CHF.
+      Douche chaude 1 CHF. / Hot shower 1 CHF.
 
   - icon: ion-earth
-    name: Des produits naturels
+    name: Des produits naturels / Natural products
     text: >
-      De l'eau exceptionnelement pure en direct du glacier, de nombreux produits locaux naturels.
+      De l'eau exceptionnelement pure en direct du glacier, de nombreux produits locaux naturels. /
+      Exceptionally pure water directly from the glacier, many natural local products.
 
   - icon: ion-leaf
-    name: Respect de la nature
+    name: Respect de la nature / Respect for nature
     text: >
-      Nous utilisons exclusivement des produits nettoyants bios.
+      Nous utilisons exclusivement des produits nettoyants bios. /
+      We use exclusively organic cleaning products.
 
   - icon: ion-card
     name: Paiments faciles / Easy payments
@@ -40,6 +46,7 @@ content:
       Credit cards (Visa, Mastercard, Vpay, American express, Maestro), liquide/cash, Bank transferts.
 
   - icon: ion-cash
-    name: Un prix très doux ... 55 CHF
+    name: Un prix très doux / A very sweet price ... 55 CHF
     text: >
-      Prix par nuit, tout inclus : Tent, King bed 2 personnes, poêle à bois, serviettes, vue, sourire, emplacement voiture, TVA, taxe de séjour.
+      Prix par nuit, tout inclus : Tent, King bed 2 personnes, poêle à bois, serviettes, vue, sourire, emplacement voiture, TVA, taxe de séjour. /
+      Price per night, all inclusive: Tent, King bed 2 people, wood stove, towels, view, smile, parking slot, VAT, tourist tax.
