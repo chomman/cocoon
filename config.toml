@@ -23,7 +23,10 @@ pygmentsCodeFences = true
     weight = 2
     name = "www.camping-arolla.com"
     url = "http://www.camping-arolla.com"
-
+  [[menu.header]]
+    weight = 3
+    name = "Prestations/services"
+    url = "/service"
   [[menu.header]]
     weight = 5
     name = "Contact & directions"
@@ -35,6 +38,10 @@ pygmentsCodeFences = true
     url = "http://www.camping-arolla.com"
   [[menu.footer]]
     weight = 2
+    name = "Prestations/services"
+    url = "/service"
+  [[menu.footer]]
+    weight = 3
     name = "Contact & directions"
     url = "/contact"
 
