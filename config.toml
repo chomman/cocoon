@@ -112,7 +112,7 @@ pygmentsCodeFences = true
     disable = true
     enableDNT = true
   [privacy.vimeo]
-    disable = true
+    disable = false
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
