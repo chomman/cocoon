@@ -109,7 +109,7 @@ pygmentsCodeFences = true
   [privacy.speakerDeck]
     disable = true
   [privacy.twitter]
-    disable = false
+    disable = true
     enableDNT = true
   [privacy.vimeo]
     disable = true
