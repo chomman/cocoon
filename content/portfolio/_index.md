@@ -1,5 +1,6 @@
 ---
 title: "Quelques photos des tentes Cocoon"
+private: true
 ---
 
 ### Nos tentes Cocoon & Cosy de luxe
