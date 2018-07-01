@@ -21,4 +21,4 @@ And you can enjoy **on reservation** the exclusive Yakari tent.
 A fully decorated Cocooning & Cozy YAKARI tent. Come spend an unforgettable night in the skin of a little Indian 🌵
 A real bed, a wood stove, a warm atmosphere ...
 
-{{< youtube 5RXIlhvGwoY >}}
+{{< vimeo 277877979 >}}
