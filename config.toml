@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 # Build robots.txt file
 enableRobotsTXT = true
 # google analytics tracking id
-googleAnalytics = ""
+googleAnalytics = "UA-121816579-1"
 
 enableGitInfo = true
 pygmentsCodeFences = true
