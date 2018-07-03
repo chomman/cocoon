@@ -1,7 +1,7 @@
 # baseURL = "http://www.arolla-cocoon.com/"
 baseURL = "https://arolla-cocoon.netlify.com/"
 
-languageCode = "en-us"
+languageCode = "fr"
 title = "Cocoon & Cosy tentes de luxe/luxury tents in Arolla"
 theme = "airspace"
 
@@ -15,7 +15,6 @@ googleAnalytics = "UA-121816579-1"
 
 enableGitInfo = true
 pygmentsCodeFences = true
-
 
 [menu]
 
@@ -54,6 +53,8 @@ pygmentsCodeFences = true
 
   date_format = "6 January 2006"
   home = "Home"
+
+  description = "Tentes de luxe, lit 2 personnes & Poêle à bois. Vous avez toujours rêvé de venir camper, mais vous n’êtes pas un aventurier aguerri? Venez passer une nuit inoubliable en plein coeur des montagnes, perchés à 1950m d'altitude, le tout dans une ambiance confortable & chaleureuse!"
 
   [params.slider]
     enable = true
