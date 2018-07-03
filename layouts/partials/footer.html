@@ -10,7 +10,7 @@
             {{ end }}
           </ul>
         </div>
-        <p>Copyright &copy; Camping Arolla. All rights reserved. {{ if .GitInfo }} #{{.GitInfo.AbbreviatedHash}} {{ end }}
+        <p>Copyright &copy; Camping Arolla. All rights reserved. {{ with .GitInfo }} [#{{.AbbreviatedHash}}] {{ end }}
           </p>
         <p>Copyright &copy; Design &amp; Developed by <a href="https://themefisher.com/">Themefisher</a>. All rights reserved.</p>
         <p>Ce site respecte de RGPD - This site is GPRD compliant</p>
