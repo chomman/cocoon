@@ -117,3 +117,19 @@ pygmentsCodeFences = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+
+# Pour générer le _redirects pour Netlify
+[outputs]
+home = [ "HTML", "RSS", "REDIR" ]
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+suffix = ""
+delimiter = ""
+
+[outputFormats]
+[outputFormats.REDIR]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
