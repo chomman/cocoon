@@ -7,7 +7,7 @@ description = "Hugo port of the Themefisher’s Airspace theme"
 homepage = "https://github.com/themefisher/airspace-hugo"
 tags = ["blog", "bootstrap", "company", "portfolio", "projects", "responsive", "themefisher"]
 features = ["blog", "company", "responsive"]
-min_version = 0.19
+min_version = 0.44
 
 [author]
   name = "Giacomo Mariani (@karjudev) for Themefisher"
