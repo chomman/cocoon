@@ -124,7 +124,7 @@ home = [ "HTML", "RSS", "REDIR" ]
 
 [mediaTypes]
 [mediaTypes."text/netlify"]
-suffix = ""
+suffixes = [""]
 delimiter = ""
 
 [outputFormats]
