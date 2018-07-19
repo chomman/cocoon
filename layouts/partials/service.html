@@ -1,10 +1,12 @@
 <!--div element add where you want the Multi Room Booking Calendar to appear.
     data-cid = "Your Calendar ID";
-    data-width = "css width without px";
+    data-width = "css width without px Let empty to append responsive software";
     data-height = "css height without px";
-    data-local = "Language ID";
+    data-local = "Language ID Let empty to append language menu";
     data-room = "room number or auto to show room menu";
     data-background = "css color without #";
+
+    data-width = "600" data-height = "400"
   -->
 
 <div class="container">
@@ -12,20 +14,18 @@
     <div class="col-md-7 col-sm-12">
       <div class="block">
         <h2>Réservation - Tente N°1</h2>
-        <div id="div_freebc_software" data-cid="demo" data-local="1" data-width = "600" data-height = "400" > </div>
+        <div id="div_mrbc_software" data-cid="151" data-local="1" data-room="auto" > </div>
       </div>
     </div><!-- .col-md-7 close -->
     <div class="col-md-5 col-sm-12">
       <div class="block">
         <h2>Réservation - Tente N°2 "Yakari"</h2>
-        <div id="div_cocoon2" data-cid="demo" data-local="1" data-width = "600" data-height = "400" > </div>      </div>
     </div><!-- .col-md-5 close -->
   </div>
 </div>
 
-
   <!--javascript add to bottom of page -->
-  <script src="https://myreservationsystem.com/js/freebc.js" async defer ></script>
+  <script src="https://myreservationsystem.com/js/mrbc.js" async defer ></script>
 
 <!--
 TEST 2
