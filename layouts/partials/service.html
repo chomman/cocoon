@@ -5,51 +5,23 @@
     data-local = "Language ID Let empty to append language menu";
     data-room = "room number or auto to show room menu";
     data-background = "css color without #";
-
-    data-width = "600" data-height = "400"
   -->
 
 <div class="container">
   <div class="row">
-    <div class="col-md-7 col-sm-12">
+    <div class="col-sm-6">
       <div class="block">
         <h2>Réservation (2 tentes / 2 tents)</h2>
         <div id="div_mrbc_software" data-cid="151" data-local="1" data-room="auto" > </div>
       </div>
-    </div><!-- .col-md-7 close -->
+    </div>
+    <div class="col-sm-6"></div>
   </div>
 </div>
-
-  <!--javascript add to bottom of page -->
-  <script src="https://myreservationsystem.com/js/mrbc.js" async defer ></script>
-
-<!--
-TEST 2
-
-<script type="text/javascript">
-  var _ubDat = [{
-    'collection':'15948',// ID of your booking engine
-    'lang':'en', // language for your booking form (ISO)
-    'ext_calendar':'1', // extended calendar
-    'ext_collections':'0', // show all your collections in one select box
-    'cssInc':'' // include your external css
-  }];
-  (function() {
-
-    var ub = document.createElement('script');
-    ub.type = 'text/javascript';
-    ub.async = true;
-    ub.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.upbooking.com/plugins/sfPlug.php';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ub, s);
-  })();
-  </script>
-  <div id="UBEngine"></div>
--->
 
 <!-- Service Start -->
 <section id="service">
   <div class="container">
-
     <!-- Intro -->
     <div class="row">
       <div class="section-title">
@@ -57,7 +29,6 @@ TEST 2
         <p>{{ .Site.Data.service.subtitle }}</p>
       </div>
     </div>
-
     <!-- Content -->
     <div class="row">
       {{ range .Site.Data.service.content }}
