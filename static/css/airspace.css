@@ -32,23 +32,21 @@
   height: 20px;
   border-radius: 20px;
   background: green;
-  margin-left:100px;
-  position:absolute;
+  margin-left:50px;
 }
 #cercle_jaune {
   width: 100px;
   height: 20px;
   border-radius: 20px;
   background: rgb(237, 205, 109);
-  margin-left:200px;
-  position:absolute;
+  margin-left:50px;
 }
 #cercle_red {
   width: 100px;
   height: 20px;
   border-radius: 20px;
   background: rgb(191, 84, 81);
-  margin-left:300px;
+  margin-left:50px;
 }
 
 /*--
