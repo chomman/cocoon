@@ -19,6 +19,38 @@
 */
 
 /* var text-decoration */
+
+
+/* UPDATE D. GEORGIEFF */
+#hack {
+  margin:auto;
+  position:relative;
+  padding:2px 0;
+  }
+#cercle_vert {
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  background: green;
+  margin-left:100px;
+  position:absolute;
+}
+#cercle_jaune {
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  background: rgb(237, 205, 109);
+  margin-left:200px;
+  position:absolute;
+}
+#cercle_red {
+  width: 100px;
+  height: 20px;
+  border-radius: 20px;
+  background: rgb(191, 84, 81);
+  margin-left:300px;
+}
+
 /*--
 	Common Css
 --*/
