@@ -143,6 +143,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 200px 0 280px 0;
   position: relative;
 }
+/* UPDATE D. GEORGIEFF */
 #slider:before {
   content: "";
   position: absolute;
@@ -172,6 +173,17 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+}
+/* UPDATE D. GEORGIEFF */
+#slider .block a {
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  background: rgb(3, 156, 28);
+  color: #fff;
+  padding: 10px 20px;
 }
 /*--
 	wrapper Start
@@ -342,8 +354,10 @@ img {
   color: #8d8f92;
   margin-bottom: 20px;
 }
+
+/* UPDATE D. GEORGIEFF */
 #feature .btn-view-works {
-  background: #655E7A;
+  background: rgb(3, 156, 28);
   color: #fff;
   padding: 10px 20px;
 }

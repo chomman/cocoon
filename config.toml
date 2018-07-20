@@ -32,7 +32,7 @@ pygmentsCodeFences = true
     url = "/service"
   [[menu.header]]
     weight = 4
-    name = "Reservation"
+    name = "Online reservation"
     url = "#reserve"
   [[menu.header]]
     weight = 5
@@ -53,7 +53,7 @@ pygmentsCodeFences = true
     url = "/service"
   [[menu.footer]]
     weight = 4
-    name = "Reservation"
+    name = "Online reservation"
     url = "#reserve"
   [[menu.footer]]
     weight = 5
@@ -87,6 +87,10 @@ pygmentsCodeFences = true
     enable = true
     title = "Tentes de luxe / Luxury tents COCOONING & COSY"
     content = ""
+    [params.feature.button]
+      caption = "Book online"
+      url = "#reserve"
+
 
   [params.call]
     enable = true
@@ -95,7 +99,7 @@ pygmentsCodeFences = true
 
   [params.reserve]
     enable = true
-    title = "Réservation / Reservation"
+    title = "Reservation / Book online"
     paragraph = "2 tentes disponibles/2 tents available"
 
   [params.contact]
