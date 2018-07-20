@@ -1,9 +1,28 @@
+<!--div element add where you want the Multi Room Booking Calendar to appear.
+    data-cid = "Your Calendar ID";
+    data-width = "css width without px Let empty to append responsive software";
+    data-height = "css height without px";
+    data-local = "Language ID Let empty to append language menu";
+    data-room = "room number or auto to show room menu";
+    data-background = "css color without #";
+  -->
 <!-- Call to action Start -->
-{{ with .Site.Params.call }}
 <section id="call-to-action">
-  <div class="container">
+  <div class="container" id="reserve">
     <div class="row">
-      <div class="col-md-12">
+
+      {{ with .Site.Params.reserve }}
+      <div class="col-md-6">
+        <div class="block">
+          <h2>{{ .title }}</h2>
+          <p>{{ .paragraph }}</p>
+          <div id="div_mrbc_software" data-cid="151" data-local="1" data-room="auto" > </div>
+        </div>
+      </div>
+      {{ end }}
+
+      {{ with .Site.Params.call }}
+      <div class="col-md-6">
         <div class="block">
           <h2>{{ .title }}</h2>
           <p>{{ .paragraph }}</p>
@@ -13,7 +32,8 @@
           <img src="/img/cocoon_montagnes-mini.jpg">
         </div>
       </div>
+      {{ end }}
+
     </div>
   </div>
 </section>
-{{ end }}
