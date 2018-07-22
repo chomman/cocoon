@@ -44,7 +44,7 @@ content:
   - icon: ion-card
     name: Paiments faciles / Easy payments
     text: >
-      Credit cards (Visa, Mastercard, Vpay, American express, Maestro), liquide/cash, Bank transferts.
+      Credit cards (Visa, Mastercard, Vpay, American express, Maestro), liquide/cash, Bank transferts, Paypal
 
   - icon: ion-cash
     name: Un prix très doux / A very sweet price ... 55 CHF

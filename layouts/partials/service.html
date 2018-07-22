@@ -8,6 +8,7 @@
         <p>{{ .Site.Data.service.subtitle }}</p>
       </div>
     </div>
+
     <!-- Content -->
     <div class="row">
       {{ range .Site.Data.service.content }}
@@ -20,5 +21,13 @@
       </div>
       {{ end }}
     </div>
+
+    <!-- .md content -->
+    <div class="row">
+      <div class="section-title">
+        {{ .Content }}
+      </div>
+    <div class="row">
+
   </div>
 </section>
