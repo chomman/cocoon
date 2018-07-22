@@ -4,22 +4,40 @@ id = "service"
 description = "Camping Arolla SARL. Tentes de luxe Cocoon and Cosy. Lit 2 personnes & Poêle à bois. Tous nos services et prestations"
 +++
 
-## Conditions de paiement / Payment conditions
+<hr>
 
-In order to confirm your reservation, we charge an **advance of 30% of your stay**.
+## Payment terms
 
-### We have a 5 days cancellation policy.
+In order to confirm your reservation, we charge a **30% deposit on your stay**.
 
-If you cancel at any time after you make your reservation until 5 days before your arrival date, we refund your advance.
+### We have a 5 day cancellation policy
 
-Failure to cancel 5 days before your stated arrival results in a NO SHOW status and you will be charged for one night’s stay.
+If you cancel your reservation up to 5 days before your arrival date, we will refund your deposit.
 
-In any other case, or for bank transfert or for any other arrangement, please don't hesitate to contact us directly and we will happy to sort it out with you.
+If you cancel less than 5 days before your arrival, the NO SHOW status will be awarded and one night will be charged.
 
-Please note : **with our online Paypal link you will be able to pay with your usual credit card** !!
+In all other cases, for a bank transfer or for any other arrangement, do not hesitate to contact us directly and we will be happy to handle this with you.
+
+<hr>
+
+## Conditions de paiement
+
+Afin de confirmer votre réservation, nous facturons une **avance de 30% sur votre séjour**.
+
+### Nous avons une politique d'annulation à 5 jours
+
+Si vous annulez votre réservation jusqu'à 5 jours avant votre date d'arrivée, nous vous rembourserons votre avance.
+
+Si vous annulez moins  de 5 jours avant votre arrivée, le statut NO SHOW sera attribué et une nuit vous sera facturée.
+
+Dans tous les autres cas, pour un virement bancaire ou pour tout autre arrangement, n'hésitez pas à nous contacter directement et nous serons heureux de traiter cela avec vous.
 
 #### Online : <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i> <i class="fa  fa-credit-card"></i> <i class="fa fa-paypal"></i>
 
 #### Directly on the campsite : <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i> <i class="fa  fa-credit-card"></i> <i class="fa fa-paypal"></i> <i class="fa fa-money" alt="CHF & EUR"> (€ & CHF) </i>
 
 #### On Request : <i class="fa fa-bank"></i>
+
+A noter : **avec notre lien en ligne Paypal, vous serez en mesure de payer avec votre carte de crédit habituelle**
+
+Note : **with our Paypal online link, you will be able to pay with your usual credit card** !!
