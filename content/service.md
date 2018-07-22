@@ -18,6 +18,8 @@ In any other case, or for bank transfert or for any other arrangement, please do
 
 Please note : **with our online Paypal link you will be able to pay with your usual credit card** !!
 
-### Online : <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i> <i class="fa  fa-credit-card"></i> <i class="fa fa-paypal"></i>
+#### Online : <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i> <i class="fa  fa-credit-card"></i> <i class="fa fa-paypal"></i>
 
-### Directly on the campsite : <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i> <i class="fa  fa-credit-card"></i> <i class="fa fa-paypal"></i> <i class="fa fa-money" alt="CHF & EUR"> (€ & CHF) </i> <i class="fa fa-bank"></i>
+#### Directly on the campsite : <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i> <i class="fa  fa-credit-card"></i> <i class="fa fa-paypal"></i> <i class="fa fa-money" alt="CHF & EUR"> (€ & CHF) </i>
+
+#### On Request : <i class="fa fa-bank"></i>
