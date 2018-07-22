@@ -99,7 +99,7 @@ pygmentsCodeFences = true
 
   [params.reserve]
     enable = true
-    title = "Reservation / Book online"
+    title = "Réservation / Book online"
     paragraph = "2 tentes disponibles/2 tents available"
 
   [params.contact]
@@ -113,7 +113,7 @@ pygmentsCodeFences = true
       message = "Your message"
       button = "Send message"
     [params.contact.box]
-      title = "Camping Arolla"
+      title = "Camping Arolla SARL"
       address = "Route de Tsalion - 1986 Arolla - Switzerland"
       email = "-"
       phone = "Téléphone / Phone: +41 (0)27 283 22 95"
