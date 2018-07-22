@@ -17,3 +17,5 @@ Failure to cancel 5 days before your stated arrival results in a NO SHOW status
 In any other case, or for bank transfert or for any other arrangement, please don't hesitate to contact us directly and we will happy to sort it out with you.
 
 Please note : **with our online Paypal link you will be able to pay with your usual credit card** !!
+
+### <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i> <i class="fa  fa-credit-card"></i> <i class="fa fa-paypal"></i> <i class="fa fa-money" alt="CHF & EUR"></i> <i class="fa fa-bank"></i>

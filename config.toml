@@ -99,7 +99,7 @@ pygmentsCodeFences = true
 
   [params.reserve]
     enable = true
-    title = "Réservation / Book online"
+    title = "Online reservation"
     paragraph = "2 tentes disponibles/2 tents available"
 
   [params.contact]
