@@ -121,14 +121,15 @@ header .navbar-default {
 header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
-header .navbar-default .navbar-nav li a {
-  color: #333333;
+header .navbar-default .navbar-nav ul li a {
+  color: #494949;
   padding: 10px 26px;
   font-size: 15px;
 }
-font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+font header .navbar-default .navbar-nav ul li a:hover {
+  color: green;
 }
+
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -898,5 +899,5 @@ footer .footer-manu ul li a {
   color: #494949;
 }
 footer .footer-manu ul li a:hover {
-  color: #000;
+  color: green;
 }
