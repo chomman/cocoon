@@ -29,7 +29,7 @@ pygmentsCodeFences = true
   [[menu.header]]
     weight = 3
     name = "Prestations/services"
-    url = "/service"
+    url = "/service/"
   [[menu.header]]
     weight = 4
     name = "Online reservation"
@@ -37,12 +37,12 @@ pygmentsCodeFences = true
   [[menu.header]]
     weight = 5
     name = "Contact & directions"
-    url = "/contact"
+    url = "/contact/"
 
   [[menu.footer]]
     weight = 1
     name = "Home"
-    url = ""
+    url = "/"
   [[menu.footer]]
     weight = 2
     name = "www.camping-arolla.com"
@@ -50,7 +50,7 @@ pygmentsCodeFences = true
   [[menu.footer]]
     weight = 3
     name = "Prestations/services"
-    url = "/service"
+    url = "/service/"
   [[menu.footer]]
     weight = 4
     name = "Online reservation"
@@ -58,7 +58,7 @@ pygmentsCodeFences = true
   [[menu.footer]]
     weight = 5
     name = "Contact & directions"
-    url = "/contact"
+    url = "/contact/"
 
 # The site's parameters
 [params]
