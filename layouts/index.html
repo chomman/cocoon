@@ -36,6 +36,10 @@
 		{{ partial "testimonial.html" . }}
 	{{ end }}
 
+	{{ if and (isset .Site.Params "meteo") (.Site.Params.meteo.enable) }}
+		{{ partial "meteo.html" . }}
+	{{ end }}
+
 	{{ partial "footer.html" . }}
 
 </body>
