@@ -132,8 +132,8 @@ pygmentsCodeFences = true
     enable = true
     title = "La météo la plus fiable / Most accurate meteo"
     subtitle = "Le seul site de météo qui tienne compte du micro-climat de Arolla / The only weather site that takes into account the micro-climate of Arolla"
-    paragraph = "Meteoblue is a meteorological service created at the University of Basel, Switzerland, in cooperation with the U.S. National Oceanic and Atmospheric Administration and the National Centers for Environmental Prediction. This is the favoured information source for alpinists, para-gliders, astronomers and farmers."
-
+    paragraph_en = "Meteoblue is a meteorological service created at the University of Basel, Switzerland, in cooperation with the U.S. National Oceanic and Atmospheric Administration and the National Centers for Environmental Prediction. This is the favoured information source for alpinists, para-gliders, astronomers and farmers."
+    paragraph_fr = "Meteoblue est un service météorologique créé à l'Université de Bâle, en Suisse, en coopération avec la NOAA des États-Unis et les Centres nationaux de prévision environnementale. C'est la source d'information privilégiée pour les alpinistes, les parapentistes, les astronomes et les agriculteurs."
 # RGPD compliant
 [privacy]
   [privacy.disqus]
