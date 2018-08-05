@@ -31,14 +31,14 @@
   width: 100px;
   height: 20px;
   border-radius: 20px;
-  background: green;
+  background: #008000;
   margin-left:50px;
 }
 #cercle_jaune {
   width: 100px;
   height: 20px;
   border-radius: 20px;
-  background: rgb(237, 205, 109);
+  background: #99c287;
   margin-left:50px;
 }
 #cercle_red {
