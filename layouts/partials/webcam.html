@@ -1,0 +1,47 @@
+<!-- Slider Start -->
+<section id="webcam">
+    <div class="container">
+        <!-- Partie texte -->
+        <div class="row">
+            <div class="section-title">
+                {{ if .Site.Params.webcam.enable }}
+                    {{ .Content }}
+                {{ else }}
+                    <h2>Please come back later. Webcam is offline</h2>
+                {{ end }}
+            </div>
+        </div>
+
+        <!-- Partie Image fixe -->
+        <!-- src="https://www.mangocam.com/c/campingarollaimage/frame.php" -->
+        {{ if .Site.Params.webcam.enable }}
+        <div class="row">
+            <div class="col-md-10 ">
+                <div class="block text-center">
+                    <iframe style="border-style: none;"
+                            src="{{ $.Site.Params.webcam.server }}/{{ $.Site.Params.webcam.accountimage }}/{{ $.Site.Params.webcam.address }}"
+                            name="frameimage"
+                            width="{{ $.Site.Params.webcam.sizex }}" height="{{ $.Site.Params.webcam.sizey }}"
+                            scrolling="no" frameborder="1">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Partie Stream vidéo -->
+        <div class="row">
+            <div class="col-md-10 ">
+                <div class="block text-center">
+                    <iframe style="border-style: none;"
+                        src="{{ $.Site.Params.webcam.server }}/{{ $.Site.Params.webcam.accountstream }}/{{ $.Site.Params.webcam.address }}"
+                        name="framestream"
+                        width="{{ $.Site.Params.webcam.sizex }}" height="{{ $.Site.Params.webcam.sizey }}"
+                        scrolling="no" frameborder="1">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+
+    </div>
+</section>
