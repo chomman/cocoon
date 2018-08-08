@@ -3,8 +3,8 @@
     <div class="container">
         <!-- Partie texte -->
         <div class="row">
-            <div class="section-title">
-                {{ if .Site.Params.webcam.enable }}
+            <div class="section-title text-center">
+                {{ if or .Site.Params.webcam.enableimage .Site.Params.webcam.enablestream }}
                     {{ .Content }}
                 {{ else }}
                     <h2>Please come back later. Webcam is offline</h2>
@@ -14,7 +14,7 @@
 
         <!-- Partie Image fixe -->
         <!-- src="https://www.mangocam.com/c/campingarollaimage/frame.php" -->
-        {{ if .Site.Params.webcam.enable }}
+        {{ if .Site.Params.webcam.enableimage }}
         <div class="row">
             <div class="col-md-10 ">
                 <div class="block text-center">
@@ -28,8 +28,10 @@
                 </div>
             </div>
         </div>
+        {{ end }}
 
         <!-- Partie Stream vidéo -->
+        {{ if .Site.Params.webcam.enablestream }}
         <div class="row">
             <div class="col-md-10 ">
                 <div class="block text-center">
