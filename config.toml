@@ -149,8 +149,10 @@ pygmentsCodeFences = true
     accountimage  = "c/campingarollaimage"
     accountstream = "c/campingarollastream"
     address = "frame.php"
-    sizex = 960
-    sizey = 540
+    sizeximage = 1240
+    sizeyimage = 720
+    sizexstream = 1240
+    sizeystream = 720
 
 # RGPD compliant
 [privacy]
