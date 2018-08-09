@@ -18,12 +18,14 @@
         <div class="row">
             <div class="col-md-12 ">
                 <div class="block text-center">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe style="border-style: none;"
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <h3>1 image fixe par minute</h3>
+                        <iframe class="embed-responsive-item"
+                                style="border-style: none;"
                                 src="{{ $.Site.Params.webcam.server }}/{{ $.Site.Params.webcam.accountimage }}/{{ $.Site.Params.webcam.address }}"
                                 name="frameimage"
                                 width="{{ $.Site.Params.webcam.sizeximage }}" height="{{ $.Site.Params.webcam.sizeyimage }}"
-                                scrolling="no" frameborder="1">
+                                scrolling="yes" frameborder="1">
                         </iframe>
                     </div>
                 </div>
@@ -36,7 +38,7 @@
         <div class="row">
             <div class="col-md-12 ">
                 <div class="block text-center">
-                    <h3>Live stream</h2>
+                    <h3>Live stream</h3>
                     <iframe style="border-style: none;"
                         src="{{ $.Site.Params.webcam.server }}/{{ $.Site.Params.webcam.accountstream }}/{{ $.Site.Params.webcam.address }}"
                         name="framestream"

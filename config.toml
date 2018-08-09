@@ -145,15 +145,15 @@ pygmentsCodeFences = true
 
   [params.webcam]
     enableimage = true
-    enablestream = false
+    enablestream = true
     server = "https://www.mangocam.com"
     accountimage  = "c/campingarollaimage"
     accountstream = "c/campingarollastream"
     address = "frame.php"
-    sizeximage = 1240
+    sizeximage = 1280
     sizeyimage = 720
     sizexstream = 640
-    sizeystream = 352
+    sizeystream = 480
 
 # RGPD compliant
 [privacy]

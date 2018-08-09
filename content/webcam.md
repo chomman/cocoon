@@ -6,12 +6,12 @@ description = "Camping Arolla SARL. Webcam live"
 
 ## Webcam live from camping Arolla
 
-Voici en temps réel (1 image par minute) une vue depuis le camping d'Arolla.
+Voici en temps réel (1 image par minute & live stream) une vue depuis le camping d'Arolla.
 
-Here is a real-time view (1 image every minute) from the Arolla campsite.
+Here is a real-time view (1 image every minute & live stream) from the Arolla campsite.
 
 ### Image size / taille de l'image
 
-Les images sont en 1240x720. Nous vous conseillons de les regarder depuis un écran d'ordinateur.
+Les images sont en 1280x720. Nous vous conseillons de les regarder depuis un écran d'ordinateur.
 
-The images are in 1240x720. We advise you to watch them from a computer screen.
+The images are in 1280x720. We advise you to watch them from a computer screen.
