@@ -16,15 +16,17 @@
         <!-- src="https://www.mangocam.com/c/campingarollaimage/frame.php" -->
         {{ if .Site.Params.webcam.enableimage }}
         <div class="row">
-            <div class="col-md-10 ">
+            <div class="col-md-12 ">
                 <div class="block text-center">
                     <h3>Images fixes (toutes les minutes)</h2>
-                    <iframe style="border-style: none;"
-                            src="{{ $.Site.Params.webcam.server }}/{{ $.Site.Params.webcam.accountimage }}/{{ $.Site.Params.webcam.address }}"
-                            name="frameimage"
-                            width="{{ $.Site.Params.webcam.sizeximage }}" height="{{ $.Site.Params.webcam.sizeyimage }}"
-                            scrolling="no" frameborder="1">
-                    </iframe>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe style="border-style: none;"
+                                src="{{ $.Site.Params.webcam.server }}/{{ $.Site.Params.webcam.accountimage }}/{{ $.Site.Params.webcam.address }}"
+                                name="frameimage"
+                                width="{{ $.Site.Params.webcam.sizeximage }}" height="{{ $.Site.Params.webcam.sizeyimage }}"
+                                scrolling="no" frameborder="1">
+                        </iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -33,7 +35,7 @@
         <!-- Partie Stream vidéo -->
         {{ if .Site.Params.webcam.enablestream }}
         <div class="row">
-            <div class="col-md-10 ">
+            <div class="col-md-12 ">
                 <div class="block text-center">
                     <h3>Live stream</h2>
                     <iframe style="border-style: none;"
