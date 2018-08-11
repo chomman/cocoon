@@ -18,7 +18,9 @@
         <div class="row">
             <div class="col-md-12 ">
                 <div class="block text-center">
-                    <h3>1 image fixe par minute</h3>
+                    {{ if .Site.Params.webcam.enablestream }}
+                        <h3>1 image fixe par minute</h3>
+                    {{ end }}
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item"
                                 style="border-style: none;"

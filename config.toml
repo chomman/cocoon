@@ -145,7 +145,7 @@ pygmentsCodeFences = true
 
   [params.webcam]
     enableimage = true
-    enablestream = true
+    enablestream = false
     server = "https://www.mangocam.com"
     accountimage  = "c/campingarollaimage"
     accountstream = "c/campingarollastream"
