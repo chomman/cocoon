@@ -42,6 +42,10 @@ pygmentsCodeFences = true
     weight = 6
     name = "Météo/weather"
     url = "/#meteo"
+  [[menu.header]]
+    weight = 7
+    name = "Webcam"
+    url = "/webcam/"
 
   [[menu.footer]]
     weight = 1
@@ -67,6 +71,10 @@ pygmentsCodeFences = true
     weight = 6
     name = "Météo/weather"
     url = "/#meteo"
+  [[menu.footer]]
+    weight = 7
+    name = "Webcam"
+    url = "/webcam/"
 
 # The site's parameters
 [params]
@@ -134,6 +142,19 @@ pygmentsCodeFences = true
     subtitle = "Le seul site de météo qui tienne compte du micro-climat de Arolla / The only weather site that takes into account the micro-climate of Arolla"
     paragraph_en = "Meteoblue is a meteorological service created at the University of Basel, Switzerland, in cooperation with the U.S. National Oceanic and Atmospheric Administration and the National Centers for Environmental Prediction. This is the favoured information source for alpinists, para-gliders, astronomers and farmers."
     paragraph_fr = "Meteoblue est un service météorologique créé à l'Université de Bâle, en Suisse, en coopération avec la NOAA des États-Unis et les Centres nationaux de prévision environnementale. C'est la source d'information privilégiée pour les alpinistes, les parapentistes, les astronomes et les agriculteurs."
+
+  [params.webcam]
+    enableimage = true
+    enablestream = false
+    server = "https://www.mangocam.com"
+    accountimage  = "c/campingarollaimage"
+    accountstream = "c/campingarollastream"
+    address = "idx.php" # "frame.php"
+    sizeximage = 1280
+    sizeyimage = 720
+    sizexstream = 640
+    sizeystream = 480
+
 # RGPD compliant
 [privacy]
   [privacy.disqus]

@@ -216,7 +216,7 @@ font header .navbar-default .navbar-nav ul li a:hover {
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
+  padding: 50px 0;
 }
 #service .service-item {
   padding-bottom: 30px;
@@ -237,6 +237,34 @@ font header .navbar-default .navbar-nav ul li a:hover {
   font-size: 14px;
   line-height: 1.8;
 }
+
+/*--
+	Webcam
+--*/
+#webcam {
+  text-align: center;
+  padding: 50px 0;
+}
+#webcam .webcam-item {
+  padding-bottom: 30px;
+}
+#webcam .webcam-item i {
+  font-size: 60px;
+  color: #4A4656;
+}
+#webcam .webcam-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+#webcam .webcam-item p {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
 /*--
 	call-to-action Start
 --*/

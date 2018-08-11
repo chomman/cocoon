@@ -1,0 +1,56 @@
+<!-- Slider Start -->
+<section id="webcam">
+    <div class="container">
+        <!-- Partie texte -->
+        <div class="row">
+            <div class="section-title text-center">
+                {{ if or .Site.Params.webcam.enableimage .Site.Params.webcam.enablestream }}
+                    {{ .Content }}
+                {{ else }}
+                    <h2>Please come back later. Webcam is offline</h2>
+                {{ end }}
+            </div>
+        </div>
+
+        <!-- Partie Image fixe -->
+        <!-- src="https://www.mangocam.com/c/campingarollaimage/frame.php" -->
+        {{ if .Site.Params.webcam.enableimage }}
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="block text-center">
+                    {{ if .Site.Params.webcam.enablestream }}
+                        <h3>1 image fixe par minute</h3>
+                    {{ end }}
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                                style="border-style: none;"
+                                src="{{ $.Site.Params.webcam.server }}/{{ $.Site.Params.webcam.accountimage }}/{{ $.Site.Params.webcam.address }}"
+                                name="frameimage"
+                                width="{{ $.Site.Params.webcam.sizeximage }}" height="{{ $.Site.Params.webcam.sizeyimage }}"
+                                scrolling="yes" frameborder="1">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+
+        <!-- Partie Stream vidéo -->
+        {{ if .Site.Params.webcam.enablestream }}
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="block text-center">
+                    <h3>Live stream</h3>
+                    <iframe style="border-style: none;"
+                        src="{{ $.Site.Params.webcam.server }}/{{ $.Site.Params.webcam.accountstream }}/{{ $.Site.Params.webcam.address }}"
+                        name="framestream"
+                        width="{{ $.Site.Params.webcam.sizexstream }}" height="{{ $.Site.Params.webcam.sizeystream }}"
+                        scrolling="no" frameborder="1">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+<p></p>
+    </div>
+</section>
