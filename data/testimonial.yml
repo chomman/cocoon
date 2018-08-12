@@ -33,3 +33,18 @@ people:
     image: img/happycamper.jpg
     name: Michael
     role: Happy customer
+  - text: >
+      Un vrai repère d’amoureux au cœur d’un camping plus qu’époustouflant ...
+    image: img/happycamper.jpg
+    name: Amandine L.
+    role: Customer in love
+  - text: >
+      Vue grandiose. Camping bien agencé en pleine nature et bien équipé. Très calme et très propre.
+    image: img/happycamper.jpg
+    name: Aurélien G.
+    role: New & happy camper
+  - text: >
+      A perfect starting point for hikes of all levels of difficulty. Stunning 360 mountain views, there's nothing like it.
+    image: img/happycamper.jpg
+    name: Dieter B.
+    role: New & happy camper
