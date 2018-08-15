@@ -8,7 +8,7 @@ description = "Camping Arolla SARL. Tentes de luxe Cocoon and Cosy. Lit 2 person
 
 ## Payment terms
 
-In order to confirm your reservation, we charge a **30% deposit on your stay**.
+In order to confirm your reservation, we charge **one night deposit** on your stay.
 
 A full payment is required for all bookings within 5 days.
 
@@ -24,7 +24,7 @@ In all other cases, for a bank transfer or for any other arrangement, do not hes
 
 ## Conditions de paiement
 
-Afin de confirmer votre réservation, nous facturons une **avance de 30% sur votre séjour**.
+Afin de confirmer votre réservation, nous facturons une **avance de une nuit** sur votre séjour.
 
 Un paiement complet est demandé pour toute réservation à moins de 5 jours.
 
