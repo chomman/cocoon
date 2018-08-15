@@ -58,3 +58,8 @@ people:
     image: img/happycamper.jpg
     name: SwiissTraveller
     role: Swiss enthousiast Cocoon camper
+  - text: >
+      Si on ne venait pas de si loin, Canada, on y reviendrait souvent.
+    image: img/happycamper.jpg
+    name: Paul-André G.
+    role: Canadian Cocoonist
