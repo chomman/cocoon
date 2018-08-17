@@ -7,7 +7,8 @@
                 {{ if or .Site.Params.webcam.enableimage .Site.Params.webcam.enablestream }}
                     {{ .Content }}
                 {{ else if .Site.Params.webcam.enableimagefixe }}
-                    <h3>Live images from camping Arolla</h3><h3>Images en direct depuis le camping Arolla</h3>
+                    <h2>Live images / Images en direct</h2>
+                    <h3>Camping Arolla</h3>
                 {{ else }}
                     <h2>Please come back later. Webcam is offline</h2>
                 {{ end }}
