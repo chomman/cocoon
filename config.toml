@@ -144,7 +144,11 @@ pygmentsCodeFences = true
     paragraph_fr = "Meteoblue est un service météorologique créé à l'Université de Bâle, en Suisse, en coopération avec la NOAA des États-Unis et les Centres nationaux de prévision environnementale. C'est la source d'information privilégiée pour les alpinistes, les parapentistes, les astronomes et les agriculteurs."
 
   [params.webcam]
-    enableimage = true
+    # image directe depuis mangocam
+    enableimagefixe = true
+    urlimagefixe = "https://www120.mangocam.com/c/campingarollaimage/img.php"
+    # iframes mangocam
+    enableimage = false
     enablestream = false
     server = "https://www.mangocam.com"
     accountimage  = "c/campingarollaimage"
