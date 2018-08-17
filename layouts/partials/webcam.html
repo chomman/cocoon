@@ -7,7 +7,7 @@
                 {{ if or .Site.Params.webcam.enableimage .Site.Params.webcam.enablestream }}
                     {{ .Content }}
                 {{ else if .Site.Params.webcam.enableimagefixe }}
-                    <h3>Fixed image live from camping Webcam</h3><h3>Image fixe live depuis la Webcam du camping</h3>
+                    <h3>Live images from camping Arolla</h3><h3>Images en direct depuis le camping Arolla</h3>
                 {{ else }}
                     <h2>Please come back later. Webcam is offline</h2>
                 {{ end }}
@@ -17,10 +17,21 @@
         <!-- Image FIXE récupérée directement sans passer par les iframes mangocam -->
         <!-- source https://www120.mangocam.com/c/campingarollaimage/img.php -->
         {{ if .Site.Params.webcam.enableimagefixe }}
+        <script language="JavaScript">
+            function iload() {
+                var cdate = new Date();
+                if (mangocam.complete) {
+                    document.mangocam.src = "{{ $.Site.Params.webcam.urlimagefixe }}?w=1280&h=720&t=" + cdate.getTime();
+                    }
+                setTimeout('iload()',1000);
+                }
+            setTimeout('iload()',1000);
+        </script>
+
         <div class="row">
             <div class="col-md-12 ">
                 <div class="block text-center">
-                    <img src="https://www120.mangocam.com/c/campingarollaimage/img.php">
+                    <img src="{{ $.Site.Params.webcam.urlimagefixe }}" name='mangocam'>
                 </div>
             </div>
         </div>
