@@ -39,12 +39,8 @@ pygmentsCodeFences = true
     name = "Contact & directions"
     url = "/contact/"
   [[menu.header]]
-    weight = 6
-    name = "Météo/weather"
-    url = "/#meteo"
-  [[menu.header]]
     weight = 7
-    name = "Webcam"
+    name = "Webcam & meteo"
     url = "/webcam/"
 
   [[menu.footer]]
@@ -68,12 +64,8 @@ pygmentsCodeFences = true
     name = "Contact & directions"
     url = "/contact/"
   [[menu.footer]]
-    weight = 6
-    name = "Météo/weather"
-    url = "/#meteo"
-  [[menu.footer]]
     weight = 7
-    name = "Webcam"
+    name = "Webcam & meteo"
     url = "/webcam/"
 
 # The site's parameters
@@ -131,20 +123,23 @@ pygmentsCodeFences = true
     [params.contact.box]
       title = "Camping Arolla SARL"
       address = "Route de Tsalion - 1986 Arolla - Switzerland"
-      email = "-"
+      email = "Utilisez le formulaire de contact à droite / Use contact form on the right."
       phone = "Téléphone / Phone: +41 (0)27 283 22 95"
     [params.contact.gmaps]
       title = "Nous trouver avec OpenStreet Maps / Find us with OpenStreet Maps"
 
   [params.meteo]
     enable = true
-    title = "La météo la plus fiable / Most accurate meteo"
-    subtitle = "Le seul site de météo qui tienne compte du micro-climat de Arolla / The only weather site that takes into account the micro-climate of Arolla"
+    title = "Prévisions météo / Weather forecast"
+    subtitle_fr = "Arolla ayant un micro-climat plus ensoleillé, les prévisions sont souvent fausses ... reportez vous aux images en direct"
+    subtitle_en = "Arolla has a sunnier micro-climate, the forecasts are often false ... refer to real and live images."
     paragraph_en = "Meteoblue is a meteorological service created at the University of Basel, Switzerland, in cooperation with the U.S. National Oceanic and Atmospheric Administration and the National Centers for Environmental Prediction. This is the favoured information source for alpinists, para-gliders, astronomers and farmers."
     paragraph_fr = "Meteoblue est un service météorologique créé à l'Université de Bâle, en Suisse, en coopération avec la NOAA des États-Unis et les Centres nationaux de prévision environnementale. C'est la source d'information privilégiée pour les alpinistes, les parapentistes, les astronomes et les agriculteurs."
 
   [params.webcam]
     # image directe depuis mangocam
+    titleimagefixe = "Live images / Images en direct"
+    subtitleimagefixe = "Camping Arolla"
     enableimagefixe = true
     urlimagefixe = "https://www120.mangocam.com/c/campingarollaimage/img.php"
     # iframes mangocam
@@ -158,6 +153,7 @@ pygmentsCodeFences = true
     sizeyimage = 720
     sizexstream = 640
     sizeystream = 480
+    subtitleimagestream = "1 image / 10 sec"
 
 # RGPD compliant
 [privacy]

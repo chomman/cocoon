@@ -7,8 +7,8 @@
                 {{ if or .Site.Params.webcam.enableimage .Site.Params.webcam.enablestream }}
                     {{ .Content }}
                 {{ else if .Site.Params.webcam.enableimagefixe }}
-                    <h2>Live images / Images en direct</h2>
-                    <h3>Camping Arolla</h3>
+                    <h2>{{ .Site.Params.webcam.titleimagefixe }}</h2>
+                    <h3>{{ .Site.Params.webcam.subtitleimagefixe }}</h3>
                 {{ else }}
                     <h2>Please come back later. Webcam is offline</h2>
                 {{ end }}
@@ -45,7 +45,7 @@
             <div class="col-md-12 ">
                 <div class="block text-center">
                     {{ if .Site.Params.webcam.enablestream }}
-                        <h3>1 image fixe par minute</h3>
+                        <h3>{{ .Site.Params.webcam.subtitleimagestream }}</h3>
                     {{ end }}
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item"
@@ -80,3 +80,8 @@
     <p></p>
     </div>
 </section>
+
+<!-- Zone meteo avec la Webcam désormais -->
+{{ if and (isset .Site.Params "meteo") (.Site.Params.meteo.enable) }}
+    {{ partial "meteo.html" . }}
+{{ end }}
