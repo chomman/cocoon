@@ -83,5 +83,5 @@
 
 <!-- Zone meteo avec la Webcam désormais -->
 {{ if and (isset .Site.Params "meteo") (.Site.Params.meteo.enable) }}
-    {{ partial "meteo.html" . }}
+    {{ partialCached "meteo.html" . }}
 {{ end }}

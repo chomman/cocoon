@@ -2,41 +2,41 @@
 <html>
 <head>
 
-	{{ partial "head.html" . }}
+	{{ partialCached "head.html" . }}
 
 </head>
 <body>
 
-	{{ partial "header.html" . }}
+	{{ partialCached "header.html" . }}
 
 	{{ if and (isset .Site.Params "slider") (.Site.Params.slider.enable) }}
-		{{ partial "slider.html" . }}
+		{{ partialCached "slider.html" . }}
 	{{ end }}
 
 	{{ if and (isset .Site.Params "wrapper") (.Site.Params.wrapper.enable) }}
-		{{ partial "wrapper.html" . }}
+		{{ partialCached "wrapper.html" . }}
 	{{ end }}
 
-	{{ partial "portfolio.html" . }}
+	{{ partialCached "portfolio.html" . }}
 
 	{{ if and (isset .Site.Params "feature") (.Site.Params.feature.enable) }}
-		{{ partial "feature.html" . }}
+		{{ partialCached "feature.html" . }}
 	{{ end }}
 
 
 	{{ if and .Site.Data.service .Site.Data.service.enable }}
-		{{ partial "service.html" . }}
+		{{ partialCached "service.html" . }}
 	{{ end }}
 
 	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
-		{{ partial "call-to-action.html" . }}
+		{{ partialCached "call-to-action.html" . }}
 	{{ end }}
 
 	{{ if .Site.Data.testimonial.enable }}
-		{{ partial "testimonial.html" . }}
+		{{ partialCached "testimonial.html" . }}
 	{{ end }}
 
-	{{ partial "footer.html" . }}
+	{{ partialCached "footer.html" . }}
 
 </body>
 </html>
