@@ -133,8 +133,8 @@ pygmentsCodeFences = true
     title = "Prévisions météo / Weather forecast"
     subtitle_fr = "Arolla ayant un micro-climat plus ensoleillé, les prévisions sont souvent fausses ... reportez vous aux images en direct"
     subtitle_en = "Arolla has a sunnier micro-climate, the forecasts are often false ... refer to real and live images."
-    paragraph_en = "Meteoblue is a meteorological service created at the University of Basel, Switzerland, in cooperation with the U.S. National Oceanic and Atmospheric Administration and the National Centers for Environmental Prediction. This is the favoured information source for alpinists, para-gliders, astronomers and farmers."
-    paragraph_fr = "Meteoblue est un service météorologique créé à l'Université de Bâle, en Suisse, en coopération avec la NOAA des États-Unis et les Centres nationaux de prévision environnementale. C'est la source d'information privilégiée pour les alpinistes, les parapentistes, les astronomes et les agriculteurs."
+    paragraph_en = "Meteoblue is the most accurate site for Arolla. It is a meteorological service created at the University of Basel, Switzerland, in cooperation with the U.S. National Oceanic and Atmospheric Administration and the National Centers for Environmental Prediction. This is the favoured information source for alpinists, para-gliders, astronomers and farmers."
+    paragraph_fr = "Meteoblue est le site le plus fiable pour Arolla. C'est un service météorologique créé à l'Université de Bâle, en Suisse, en coopération avec la NOAA des États-Unis et les Centres nationaux de prévision environnementale. C'est la source d'information privilégiée pour les alpinistes, les parapentistes, les astronomes et les agriculteurs."
 
   [params.webcam]
     # image directe depuis mangocam
