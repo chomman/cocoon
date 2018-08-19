@@ -40,7 +40,7 @@ Dans tous les autres cas, pour un virement bancaire ou pour tout autre arrangeme
 
 #### Directly on the campsite : <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i> <i class="fa  fa-credit-card"></i> <i class="fa fa-paypal"></i> <i class="fa fa-money" alt="CHF & EUR"> (€ & CHF) </i>
 
-#### On Request : <i class="fa fa-bank"></i>
+#### On Request : <i class="fa fa-bank"></i> bank transfert
 
 A noter : **avec notre lien en ligne Paypal, vous serez en mesure de payer avec votre carte de crédit habituelle**
 
