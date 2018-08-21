@@ -143,7 +143,7 @@ pygmentsCodeFences = true
     enableimagefixe = true
     urlimagefixe = "https://www120.mangocam.com/c/campingarollaimage/img.php"
 
-    webcamwarning = "DIRECT LIVE - refresh 10 seconds"
+    webcamwarning = "DIRECT LIVE - refresh every 10 seconds"
 
     # iframes mangocam
     enableimage = false
@@ -161,7 +161,7 @@ pygmentsCodeFences = true
     # timelapse from https://www.lookr.com/
     enabletimelapse = true
     titletimelapse = "Vidéo accélérée / timelapse de la webcam"
-    subtitletimelapse ="les derniers 30 jours au camping ... source www.lookr.com"
+    subtitletimelapse ="last 30 days at camping Arolla ... source www.lookr.com"
     idtimelapse = "1534093781"
 
 # RGPD compliant
