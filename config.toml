@@ -143,7 +143,7 @@ pygmentsCodeFences = true
     enableimagefixe = true
     urlimagefixe = "https://www120.mangocam.com/c/campingarollaimage/img.php"
 
-    webcamwarning = "DIRECT LIVE - refresh every 10 seconds"
+    webcamwarning = "DIRECT LIVE - automatic refresh every 10 seconds"
 
     # iframes mangocam
     enableimage = false
