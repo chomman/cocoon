@@ -139,9 +139,12 @@ pygmentsCodeFences = true
   [params.webcam]
     # image directe depuis mangocam
     titleimagefixe = "Live images / Images en direct"
-    subtitleimagefixe = "Camping Arolla"
+    subtitleimagefixe = "La webcam du camping"
     enableimagefixe = true
     urlimagefixe = "https://www120.mangocam.com/c/campingarollaimage/img.php"
+
+    webcamwarning = "DIRECT LIVE - refresh 10 seconds"
+
     # iframes mangocam
     enableimage = false
     enablestream = false
@@ -154,6 +157,12 @@ pygmentsCodeFences = true
     sizexstream = 640
     sizeystream = 480
     subtitleimagestream = "1 image / 10 sec"
+
+    # timelapse from https://www.lookr.com/
+    enabletimelapse = true
+    titletimelapse = "Vidéo accélérée / timelapse de la webcam"
+    subtitletimelapse ="les derniers 30 jours au camping ... source www.lookr.com"
+    idtimelapse = "1534093781"
 
 # RGPD compliant
 [privacy]
