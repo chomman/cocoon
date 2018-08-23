@@ -109,6 +109,7 @@ pygmentsCodeFences = true
     enable = true
     title = "Online reservation"
     paragraph = "2 tentes disponibles/2 tents available"
+    checkin ="Check-in : 16-19h / Check-out : 11-12h"
 
   [params.contact]
     enable = true
