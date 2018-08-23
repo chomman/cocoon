@@ -161,8 +161,10 @@ pygmentsCodeFences = true
 
     # timelapse from https://www.lookr.com/
     enabletimelapse = true
+    timelapseembeded = false
     titletimelapse = "Vidéo accélérée / timelapse de la webcam"
-    subtitletimelapse ="Choose from last 24h or 30 days at camping Arolla ... source www.lookr.com"
+    subtitletimelapse ="Choose from last 24h or 30 days at camping Arolla"
+    copyrighttimelapse = "Time lapse Web player provided courtesy of www.lookr.com"
     idtimelapse = "1534093781"
 
 # RGPD compliant
