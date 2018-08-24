@@ -14,7 +14,7 @@
 	{{ end }}
 
 	{{ if and (isset .Site.Params "wrapper") (.Site.Params.wrapper.enable) }}
-		{{ partialCached "wrapper.html" . }}
+		{{ partial "wrapper.html" . }}
 	{{ end }}
 
 	{{ partialCached "portfolio.html" . }}
