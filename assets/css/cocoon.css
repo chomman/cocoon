@@ -114,6 +114,11 @@
   line-height: 1.8;
 }
 
+/* Service Start */
+#service {
+  text-align: center;
+  padding: 90px 0;
+}
 
 /* Ajout pour le live warning */
   #live-warning {
@@ -140,13 +145,12 @@
   }
 
   /* Modif du header et footer */
-  header .navbar-default .navbar-nav ul li a {
+  header .navbar-default .navbar-nav li a {
     color: #494949;
-    padding: 10px 26px;
+    padding: 10px 12px;
     font-size: 15px;
   }
-
-  font header .navbar-default .navbar-nav ul li a:hover {
+  font header .navbar-default .navbar-nav li a:hover {
     color: green;
   }
 
@@ -154,8 +158,8 @@
     color: green;
   }
 
-
   /* Modif du slider (et son bouton) */
+
   #slider {
     background: url("../img/slider-bg.jpg") no-repeat;
     background-size: cover;
@@ -196,6 +200,7 @@
     line-height: 60px;
     letter-spacing: 10px;
     padding-bottom: 45px;
+    text-shadow: 1px 1px grey;
   }
   #slider .block p {
     font-size: 23px;
@@ -204,4 +209,5 @@
     font-weight: 400;
     letter-spacing: 3px;
     padding-bottom: 35px;
+    text-shadow: 1px 1px grey;
   }
