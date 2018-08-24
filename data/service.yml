@@ -11,16 +11,22 @@ content:
       Un grand lit 160cm avec couette, oreillers & serviettes /
       A large 160cm bed with duvet, pillows & towels
 
-  - icon: ion-ios-flask
-    name:  Cuisiner / Cooking
-    text: >
-      Nécessaire pour cuisiner / Equipment needed for cooking.
-
   - icon: ion-bonfire
     name: Chauffage au bois / Wood Oven
     text: >
       Tout le bois nécessaire pour profiter des joies du poêle. /
       All the necessary wood to make the most of the pleasures of the stove
+
+  - icon: ion-ios-flask
+    name:  Cuisiner / Cooking
+    text: >
+      Nécessaire pour cuisiner / Equipment needed for cooking.
+
+  - icon: ion-thermometer
+    name: Douche et sanitaires / Shower and toilets
+    text: >
+      Douche chaude 1 CHF. Eviers vaisselle avec eau chaude, wc et lavabos /
+      Hot shower 1 CHF. Dish washing sinks, washing sinks toilets
 
   - icon: ion-coffee
     name: Epicerie / Grocery
@@ -34,28 +40,11 @@ content:
       De nombreuses randonnées se font au départ d'Arolla. Tous les goûts et tous les niveaux! /
       Many hikes are from Arolla. All tastes and all levels!
 
-  - icon: ion-thermometer
-    name: Douche et sanitaires / Shower and toilets
-    text: >
-      Douche chaude 1 CHF. Eviers vaisselle avec eau chaude, wc et lavabos /
-      Hot shower 1 CHF. Dish washing sinks, washing sinks toilets
-
   - icon: ion-earth
     name: Des produits naturels / Natural products
     text: >
-      De l'eau exceptionnelement pure en direct du glacier, produits locaux naturels. /
-      Exceptionally pure water directly from the glacier, many natural local products.
-
-  - icon: ion-leaf
-    name: Respect de la nature / Respect for nature
-    text: >
-      Nous utilisons exclusivement des produits nettoyants bios. /
-      We use exclusively organic cleaning products.
-
-  - icon: ion-card
-    name: Paiments faciles / Easy payments
-    text: >
-      Credit cards (Visa, Mastercard, Vpay, American express, Maestro), Cash EUR & CHF, Bank transferts, Paypal
+      De l'eau exceptionnelement pure en direct du glacier, produits locaux naturels. Nous utilisons exclusivement des produits nettoyants bios /
+      Exceptionally pure water directly from the glacier, many natural local products. We use exclusively organic cleaning products.
 
   - icon: ion-cash
     name: Un prix très doux / A very sweet price ... 55 CHF
