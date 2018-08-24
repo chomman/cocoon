@@ -5,6 +5,23 @@ subtitle: >
   Find the comfort of a hotel room, surrounded by nature and in an exceptional place.``
 
 content:
+  - icon: ion-android-people
+    name: King size bed / Grand lit
+    text: >
+      Un grand lit 160cm avec couette, oreillers & serviettes /
+      A large 160cm bed with duvet, pillows & towels
+
+  - icon: ion-ios-flask
+    name:  Cuisiner / Cooking
+    text: >
+      Nécessaire pour cuisiner / Equipment needed for cooking.
+
+  - icon: ion-bonfire
+    name: Chauffage au bois / Wood Oven
+    text: >
+      Tout le bois nécessaire pour profiter des joies du poêle. /
+      All the necessary wood to make the most of the pleasures of the stove
+
   - icon: ion-coffee
     name: Epicerie / Grocery
     text: >
@@ -16,12 +33,6 @@ content:
     text: >
       De nombreuses randonnées se font au départ d'Arolla. Tous les goûts et tous les niveaux! /
       Many hikes are from Arolla. All tastes and all levels!
-
-  - icon: ion-bonfire
-    name: Chauffage au bois / Wood Oven
-    text: >
-      Tout le bois nécessaire pour profiter des joies du poêle. /
-      All the necessary wood to make the most of the pleasures of the stove
 
   - icon: ion-thermometer
     name: Douche et sanitaires / Shower and toilets
