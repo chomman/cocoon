@@ -35,12 +35,18 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/airspace-local-fonts.css" />
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/airspace.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/ionicons.min.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/animate.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/responsive.css" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css" />
+
+<!-- gestion de la css airspace du theme -->
+<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/airspace.css" /> -->
+{{ $style_original := resources.Get "css/airspace.css" }}
+{{ $style_cocoon   := resources.Get "css/cocoon.css" }}
+{{ $style := slice $style_original $style_cocoon | resources.Concat "css/cocoon_complet.css" | minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
