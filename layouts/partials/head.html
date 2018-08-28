@@ -9,12 +9,19 @@
 <meta name="robots" content="{{ with .Params.robots }}{{ . }}{{ else }}{{ .Site.Params.robots }}{{ end }}">
 {{ end }}
 
-<!-- SEO -->
+<!-- SEO / opengraph -->
 <meta property="og:title" content="{{ if ne .URL "/" }} {{ .Title }} - {{ end }} {{ .Site.Title }}" />
-<meta property="og:description" content="{{ .Params.description }}" />
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:locale" content="{{ .Site.LanguageCode }}">
+<meta property="og:type" content="website" />
+{{- with .Site.Params.images }}{{- range first 6 . }}
+<meta property="og:image" content="{{ . | absURL }}" />
+{{ end }}{{ end }}
+{{- with .Site.Params.videos }}{{- range . }}
+<meta property="og:video" content="{{ . | absURL }}" />
+{{ end }}{{ end }}
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory
      or place appropriate <link .../> etc in favicon.html partial -->
