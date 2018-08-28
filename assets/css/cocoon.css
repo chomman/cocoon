@@ -144,6 +144,17 @@
     border-radius: 10px;
   }
 
+/* Ajout pour le spam warning */
+#spam-warning {
+  margin: 2px 2px;
+  padding: 1rem;
+  background-color:white;
+  border: 0.3rem solid gray;
+  color: #A90448;
+  font-size: 140%;
+  border-radius: 10px;
+}
+
   /* Modif du header et footer */
   header .navbar-default .navbar-nav li a {
     color: #494949;

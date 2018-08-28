@@ -114,6 +114,9 @@ pygmentsCodeFences = true
     title = "Online reservation"
     paragraph = "2 tentes disponibles/2 tents available"
     checkin ="Check-in : 16-19h / Check-out : 11-12h"
+    warning_spam_title ="After your reservation / après votre réservation ... check your spam folder / vérifiez votre dossier de spam"
+    warning_spam_en = "WE DO SEND confirmation mails. So please, please, check your spam filter & junk mail folder if you do not see those mails"
+    warning_spam_fr = "NOUS ENVOYONS des mails de confirmation. Alors, s'il vous plaît, vérifiez votre filtre de courrier indésirable et votre dossier de spam si vous ne voyez pas ces messages"
 
   [params.contact]
     enable = true
