@@ -78,7 +78,7 @@ pygmentsCodeFences = true
   date_format = "6 January 2006"
   home = "Home"
   # pour SEO/opengraph
-  images = ["img/sliders-bg.jpg", "img/wrapper-img.png"]
+  images = ["img/slider-bg.jpg", "img/wrapper-img.png"]
   videos = ["https://vimeo.com/277877979"]
 
   description = "Tentes de luxe, lit 2 personnes & Poêle à bois. Vous avez toujours rêvé de venir camper, mais vous n’êtes pas un aventurier aguerri? Venez passer une nuit inoubliable en plein coeur des montagnes, perchés à 1950m d'altitude, le tout dans une ambiance confortable & chaleureuse!"
