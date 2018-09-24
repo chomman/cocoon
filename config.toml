@@ -150,8 +150,8 @@ pygmentsCodeFences = true
     titleimagefixe = "Live images / Images en direct"
     subtitleimagefixe = "La webcam du camping"
     enableimagefixe = true
-    urlimagefixe = "https://www120.mangocam.com/c/campingarollaimage/img.php"
-
+    # urlimagefixe = "https://www120.mangocam.com/c/campingarollaimage/img.php"
+    urlimagefixe = "https://www124.mangocam.com/c/campingarollaimage/img.php"
     webcamwarning = "DIRECT LIVE - automatic refresh every 10 seconds"
 
     # iframes mangocam
