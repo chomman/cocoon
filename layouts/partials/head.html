@@ -56,6 +56,9 @@
 {{ $style := slice $style_original $style_cocoon | resources.Concat "css/cocoon_complet.css" | minify }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
 
+<!-- Cookie Consent pour RGPD -->
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5c6d3d0c-6c19-48f8-8807-eaf82b489999" type="text/javascript" async></script>
+
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
@@ -81,4 +84,4 @@
  */
 -->
 
-<script async src="//static.zotabox.com/1/2/1212f7bbd05c5aaf387f9cfcd348585e/widgets.js"></script>
+<script async src="//static.zotabox.com/1/2/1212f7bbd05c5aaf387f9cfcd348585e/widgets.js" data-cookieconsent="statistics"></script>
