@@ -238,7 +238,7 @@
     }
 
     /* ouverture camping */
-    #intro .block p,p.open-text,p.close-text {
+    #intro .block p.open-text,p.close-text {
       font-size: 20px;
       line-height: 20px;
       font-family: 'Roboto', sans-serif;
@@ -246,14 +246,14 @@
       letter-spacing: 1px;
       padding: 10px;
       text-align: center;
-      color: yellow;
       border-radius: 10px;
     }
     #intro .block p.open-text {
       background: green;
+      color: yellow;
     }
     #intro .block p.close-text {
       background: red;
+      color: yellow;
       font-size: 25px;
-
     }
