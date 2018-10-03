@@ -48,7 +48,8 @@ Les cookies strictement nécessaires suivants sont utilisés sur notre site
 
 Nom | Origine | Objectif | Terme
 ----|----|----|----
-__cfduid | zotabox.com | Utilisé par le réseau de contenu, Cloudflare, pour identifier le trafic web fiable. | 1 année
+csrftoken | umap.openstreetmap.fr | Aide à prévenir des attaques dangereuses du type Cross Site Request Forgery (CSRF) | 1 année
+
 
 L'utilisation de cookies strictement nécessaires sur ce site est possible sans votre consentement. Pour cette raison, les cookies strictement nécessaires ne peuvent pas être activés ou désactivés individuellement. Cependant, vous pouvez désactiver les cookies dans votre navigateur à tout moment.
 
@@ -66,7 +67,7 @@ aucun |   aucun | aucun    | aucun
 Ces cookies collectent et stockent uniquement des informations anonymes afin qu'ils ne puissent pas suivre vos mouvements sur d'autres sites Web.
 Vous pouvez choisir de ne pas utiliser les cookies fonctionnels à tout moment en ajustant vos paramètres de cookies en conséquence.
 
-## Cookies de performance/statistiques
+## Cookies de performance
 
 Les cookies de performance collectent des informations sur la manière dont nos sites Web sont utilisés afin d'améliorer leur attractivité, leur contenu et leurs fonctionnalités.
 
@@ -90,15 +91,19 @@ Les cookies marketing / tiers / basés sur le consentement suivants sont utilis�
 
 Nom  | Origine | Objectif | Terme
 ----:|:------- |:-------- |:----
-collect | google-analytics.com | Non classifié | Session
-vuid | vimeo.com | Recueille des données sur les visites de l'utilisateur sur le site web | 2 années
-NID | google.com | En registre un idenfifiant qui identifie l'appareil de l'utilisateur récurrent | 6 mois
-yt-remote-cast-installed | youtube-nocookie.com || Session
-yt-remote-device-id | youtube-nocookie.com || Persistent
-yt-remote-fast-check-period | youtube-nocookie.com || Session
-yt-remote-session-app | youtube-nocookie.com || Session
-yt-remote-session-name | youtube-nocookie.com || Session
-ga:clientId | camping-arolla.com || Session
+_ga | lookr.com | | 2 années
+_gat | lookr.com | Utilisé par Google Analytics pour diminuer radicalement le taux de requêtes | Session
+_gid | lookr.com | | session
+beacon.php | api.webcams.travel | | session
+_ga | myreservationsystem.com | | 2 années
+_gat | myreservationsystem.com | Utilisé par Google Analytics pour diminuer radicalement le taux de requêtes | Session
+_gid | myreservationsystem.com | | session
+ABCalendar | myreservationsystem.com | | session
+browser_mrbc_test | myreservationsystem.com | | session
+collect | google-analytics.com | | Session
+vuid | vimeo.com | | 2 années
+locale | meteoblue.com || 10 années
+ga:clientId | cocoon-arolla.com || Session
 
 Vous pouvez retirer votre consentement à l'utilisation des cookies de marketing / tiers / à base de consentement individuellement à tout moment avec effet pour l'avenir en ajustant vos paramètres de cookies en conséquence.
 
