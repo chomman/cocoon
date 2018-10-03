@@ -86,6 +86,11 @@ pygmentsCodeFences = true
   legaltext = "Mentions légales"
   cookielegalurl = "legal"
 
+  [params.open]
+    open = false
+    textopen  = "Le camping est ouvert du 1 juin au 15 septembre 2019."
+    textclose = "Fermeture annuelle - réouverture en Juin 2019."
+
   [params.slider]
     enable = true
     title = "COCOONING & COSY"
