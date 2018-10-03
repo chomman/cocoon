@@ -83,6 +83,9 @@ pygmentsCodeFences = true
 
   description = "Tentes de luxe, lit 2 personnes & Poêle à bois. Vous avez toujours rêvé de venir camper, mais vous n’êtes pas un aventurier aguerri? Venez passer une nuit inoubliable en plein coeur des montagnes, perchés à 1950m d'altitude, le tout dans une ambiance confortable & chaleureuse!"
 
+  legaltext = "Mentions légales"
+  cookielegalurl = "legal"
+
   [params.slider]
     enable = true
     title = "COCOONING & COSY"
