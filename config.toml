@@ -119,16 +119,22 @@ pygmentsCodeFences = true
     warning_spam_en = "WE DO SEND confirmation mails. So please, please, check your spam filter & junk mail folder if you do not see those mails"
     warning_spam_fr = "NOUS ENVOYONS des mails de confirmation. Alors, s'il vous plaît, vérifiez votre filtre de courrier indésirable et votre dossier de spam si vous ne voyez pas ces messages"
 
+  # gestion du mode de contact
+  [params.zotabox]
+    enable = false
+    title  = "Utilisez le bouton de contact à droite"
+    text   = "Nous nous ferons un plaisir de vous répondre dans les meilleurs délais"
+    url    = "1/2/1212f7bbd05c5aaf387f9cfcd348585e"
   [params.contact]
-    enable = true
     title = "Contactez nous / Drop us a note"
-    subtitle = "Utilisez le bouton de formulaire de contact à droite de la page / Use the contact form button on the right."
+    subtitle = "Utilisez le formulaire pour nous laisser un message."
     [params.contact.form]
-      name = "Your name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
-      button = "Send message"
+      enable = true
+      name = "Votre nom / Your name"
+      email = "Votre email / Your email"
+      subject = "Votre sujet / Your subject"
+      message = "Votre message / Your message"
+      button = "Envoyer le message / Send message"
     [params.contact.box]
       title = "Camping Arolla SARL"
       address = "Route de Tsalion - 1986 Arolla - Switzerland"
