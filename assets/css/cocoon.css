@@ -257,3 +257,44 @@
       color: yellow;
       font-size: 25px;
     }
+
+/* Pour message box fixe */
+.MsgBoxLocal {
+  font-size: 18px;
+  border: 1px solid;
+  margin: 0px 0px;
+  padding:15px 15px 15px 15px;
+  text-align: center;
+
+  float: left !important;
+  left: auto;
+  right: 1px;
+  top: 10%;
+  bottom: auto;
+
+  z-index: 99999999 !important;
+  position: fixed;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  transform: rotate(-0deg);
+  transform-origin: right top 0;
+
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  color: #DFF2BF;
+  background-color: rgb(210, 34, 189);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  }
+  .MsgBoxLocal p {
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    text-emphasis: 500;
+  }
+  .MsgBoxLocal a {
+    color: white;
+  }

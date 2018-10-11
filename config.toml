@@ -86,6 +86,13 @@ pygmentsCodeFences = true
   legaltext = "Mentions légales"
   cookielegalurl = "legal"
 
+  [params.msgboxlocal]
+    enable = true
+    title = "Nouveau / New !"
+    textfr = "Bientôt une grosse surprise pour nos clients ..."
+    texten = "Soon, a surprise for our customers ..."
+    url = "https://countdown-arolla.netlify.com"
+
   [params.open]
     open = false
     textopen  = "Le camping est ouvert du 1 juin au 15 septembre 2019."
