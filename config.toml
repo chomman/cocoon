@@ -88,9 +88,9 @@ pygmentsCodeFences = true
 
   [params.msgboxlocal]
     enable = true
-    title = "Nouveau / New !"
-    textfr = "Bientôt une surprise pour nos clients ..."
-    texten = "Soon, a surprise for our customers ..."
+    title = "Bientôt, une surprise ..."
+    textfr = "En savoir plus"
+    texten = "Know more about it"
     url = "https://countdown-arolla.netlify.com"
 
   [params.open]

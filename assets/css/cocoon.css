@@ -260,7 +260,7 @@
 
 /* Pour message box fixe */
 .MsgBoxLocal {
-  font-size: 18px;
+  font-size: 14px;
   border: 1px solid;
   margin: 0px 0px;
   padding:15px 15px 15px 15px;
@@ -291,10 +291,13 @@
   }
   .MsgBoxLocal p {
     color: yellow;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     text-emphasis: 500;
   }
   .MsgBoxLocal a {
     color: white;
+  }
+  .fa-gift.msgbox {
+    font-size: 40px;
   }
