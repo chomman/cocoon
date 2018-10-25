@@ -77,6 +77,10 @@ pygmentsCodeFences = true
 
   date_format = "6 January 2006"
   home = "Home"
+
+  logo = "/images/logo-blanc.png"
+  logo_size = "90"
+
   # pour SEO/opengraph
   images = ["img/slider-bg.jpg", "img/wrapper-img.png"]
   videos = ["https://vimeo.com/277877979"]

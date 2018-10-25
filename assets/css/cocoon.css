@@ -169,6 +169,12 @@
     color: green;
   }
 
+/* pour le logo */
+  .navbar-brand {
+    height: 100px;
+    padding: 15px 15px 1px 15px;
+}
+
   /* Modif du slider (et son bouton) */
 
   #slider {
