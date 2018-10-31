@@ -9,7 +9,12 @@
 <!-- Message d'alerte fixe -->
 {{ with .Site.Params.msgboxlocal }}
     {{ if .enable }}
-      <div class="MsgBoxLocal"><p>{{ .title }}</p><a href="{{ .url }}" target="_blank"><i class="fa fa-gift msgbox"></i><br>{{ .textfr }}<br>{{ .texten }}</a></div>
+      <div class="MsgBoxLocal">
+          <a href="{{ .url }}" target="_blank">
+            {{ .title }}<br>
+            {{ .text }}
+          </a>
+        </div>
     {{ end }}
 {{ end }}
 
