@@ -94,7 +94,7 @@ pygmentsCodeFences = true
     enable = true
     title = "Retrouvez nous / find us"
     text = "à L'hôtel de La Gouille"
-    url = "https://www.pension-du-lac-bleu.ch/"
+    url = "https://www.pension-du-lac-bleu.ch/blog/une-nouvelle-equipe/"
 
   [params.open]
     open = false
