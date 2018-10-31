@@ -92,10 +92,9 @@ pygmentsCodeFences = true
 
   [params.msgboxlocal]
     enable = true
-    title = "Bientôt, une surprise ..."
-    textfr = "En savoir plus"
-    texten = "Know more about it"
-    url = "https://countdown-arolla.netlify.com"
+    title = "Retrouvez nous / find us"
+    text = "à L'hôtel de La Gouille"
+    url = "https://www.pension-du-lac-bleu.ch/"
 
   [params.open]
     open = false
