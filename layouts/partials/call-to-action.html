@@ -31,30 +31,26 @@
       </div>
       {{ end }}
 
-      {{ with .Site.Params.call }}
       <div class="col-md-6">
         <div class="block">
-          <h2>{{ .title }}</h2>
-          <p>{{ .paragraph }}</p>
-          {{ with .button }}
-          <a class="btn btn-default btn-call-to-action" href="{{ .url }}" >{{ .text }}</a>
+          {{ with .Site.Params.call }}
+            <h2>{{ .title }}</h2>
+            <p>{{ .paragraph }}</p>
+            {{ with .button }}
+              <a class="btn btn-default btn-call-to-action" href="{{ .url }}" >{{ .text }}</a>
+            {{ end }}
+            <img src="/img/cocoon_montagnes-mini.jpg"><p>
           {{ end }}
-          <img src="/img/cocoon_montagnes-mini.jpg">
-        </div>
-      </div>
-      {{ end }}
 
-      <!-- largeur de la page -->
-      {{ with .Site.Params.reserve }}
-      <div class="col-md-12">
-        <div class="block"><h3>{{ .checkin }}</h3></div>
-        <div class="block">
-          <div id="spam-warning">{{ .warning_spam_title }}</div>
-          <p>{{ .warning_spam_fr }}</p>
-          <p>{{ .warning_spam_en }}</p>
+          {{ with .Site.Params.reserve }}
+            <h3>{{ .checkin }}</h3>
+            <div id="spam-warning">{{ .warning_spam_title }}</div>
+            <p>{{ .warning_spam_fr }}</p>
+            <p>{{ .warning_spam_en }}</p>
+          {{ end }}
+
         </div>
       </div>
-      {{ end }}
 
     </div>
   </div>
