@@ -18,7 +18,7 @@
 
         <div class="col-md-8 col-sm-12">
           <div class="block">
-                <form id="contact-form" name="contact" method="post" data-netlify="true">
+                <form id="contact-form" name="contact" method="post" data-netlify="true" netlify-honeypot="surprise">
                   <div class="form-group">
                     <input type="text" class="form-control" placeholder="{{ .form.name }}" name="name" id="name">
                   </div>
@@ -31,6 +31,10 @@
                   <div class="form-group-2">
                     <textarea class="form-control" rows="3" placeholder="{{ .form.message }}"  name="message" id="message"></textarea>
                   </div>
+                  <p class="hidden">
+                    <label>Ne pas remplir si vous êtes un humain<input name="surprise" /></label>
+                  </p>
+                  <div data-netlify-recaptcha></div>
                   <button class="btn btn-default" type="submit" id="contact-submit">{{ .form.button }}</button>
                 </form>
           </div>
